@@ -10,3 +10,6 @@ gradleEnterprise {
         termsOfServiceAgree = "yes"
     }
 }
+include 'core'
+include 'cli'
+
