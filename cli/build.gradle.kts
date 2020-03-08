@@ -16,7 +16,7 @@ val shadowJar by tasks.getting(com.github.jengelman.gradle.plugins.shadow.tasks.
                 "Implementation-Title" to project.name,
                 "Implementation-Version" to project.version,
                 "Class-Path" to project.configurations.compileClasspath.get().joinToString(" ") { it.name },
-                "Main-Class" to "io.github.serpro69.kfaker.app.KFaker"
+                "Main-Class" to "io.github.serpro69.kfaker.app.KFakerKt"
             )
         )
     }
